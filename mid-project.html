@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Personal Info
+</title>
+  <script>$("#button").click(function() {
+  $('.transform').toggleClass('transform-active');
+});</script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<style>
+body {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8oMyWoKlupIR_Ro-TNVwUzlAL6UN4WCC1JF3A7brVASroE_LkBe-BDVNjAZ406A0SYmU&usqp=CAU');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+
+h3,p {
+  margin: 0px;
+  padding: 10px 10px 10px 10px;
+  text-shadow: 0 0 3px #FF0000;
+  display: inline-lock;
+}
+
+h4 {
+  color: black;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.intro {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+.break {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0%   {background-color:red; left:6%; top:0px;}
+  50% {background-color:blue; left:94%; top:0px;}
+  100%   {background-color:red; left:6%; top:0px;}
+}
+
+</style>
+<body>
+
+<a name="Back To Top"></a>
+<nav class="navbar navbar-expand-sm bg-light navbar-light">
+  <h3 id="menu">Menu (Click to teleport)</h3>
+</nav>
+
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <ul class="navbar-nav">
+    <li class="nav-item active">
+      <a class="nav-link" href="#Basic Info">Basic Info</a>
+    </li>
+  </ul>
+</nav>
+
+<nav class="navbar navbar-expand-sm bg-secondary navbar-dark">
+  <ul class="navbar-nav">
+    <li class="nav-item active">
+      <a class="nav-link" href="#Introduction">Introduction</a>
+    </li>
+  </ul>
+</nav>
+
+<nav class="navbar navbar-expand-sm bg-light navbar-light">
+   <ul class="navbar-nav">
+    <li class="nav-item active">
+      <a class="nav-link" href="#Comment">Comment</a>
+    </li>
+  </ul>
+</nav>
+
+<br>
+<br>
+<br>
+<br>
+<div class="break"></div>
+<br>
+<br>
+<br>
+<br>
+
+<a name="Basic Info"></a>
+<table bgcolor="white" width="80%" align="center">
+<th colspan="2"><p>Basic Info</p></th>
+<tr>
+ <td>　<img src="https://y.gtimg.cn/music/photo_new/T001R300x300M000002kOGyl4UvtUJ.jpg?max_age=2592000" alt="Profile pic" width="230px" height="250px"></td>
+ <td><ul><li>Name: Lo Tim Long</li></ul></td>
+</tr>
+<tr>
+ <td></td>
+ <td align="right"><a href="#Back To Top">Back To Top</a></td>
+</table>
+
+<br>
+<br>
+<br>
+<br>
+<div class="break"></div>
+<br>
+<br>
+<br>
+<br>
+
+<a name="Introduction"></a>
+<table bgcolor="white" width="80%" align="center">
+<th><p>Introduction</p></th>
+<tr>
+ <td class="intro">I am studying the financial technology in PolyU. Although I graduated from the accounting programme in HKCC, I found that I am not suitable to study more about business. Therefore, I select another interest to study, which is IT. In my leisure time, I enjoy to play badminton with my friend. Unfortunately, the covid-19 affect many people's life. I cannot play badminton anymore since there are no sport center open. However, I can use these time to learn more. For example, I can practice more in musical instrucment like guitar and drum. It still can be a meaningful time.
+ </td>
+</tr>
+<tr>
+ <td align="right"><a href="#Back To Top">Back To Top</a></td>
+</tr>
+</table>
+
+<br>
+<br>
+<br>
+<br>
+<div class="break"></div>
+<br>
+<br>
+<br>
+<br>
+
+<a name="Comment"></a>
+<table bgcolor="white" width="80%" align="center">
+<th><p>Comment</p></th>
+<tr>
+ <td align="center"><h4>Do you like this page?</h4><br>
+ <div class="container">
+  <button type="button" class="btn btn-primary active">Yes</button>
+  <button type="button" class="btn btn-primary active">No</button>
+ </td>
+</tr>
+<tr>
+ <td align="center"><form name="form" method="POST" enctype="text/plain">
+ Comments:<br>
+ <textarea name="comment" row="10" cols="150">Type your comment below (no function form)
+ </textarea>
+ <br>
+ <input type="submit" value="submit">
+</form>
+</td>
+<tr>
+<td align="right"><a href="#Back To Top">Back To Top</a></td>
+</tr>
+</table>
+</body>
+</html>
